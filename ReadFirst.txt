@@ -3,7 +3,7 @@
 
 
 
-# opern cloudera terminal and type:    
+# open cloudera terminal and type:    
 	/home/cloudera/Desktop/RunScript.txt                                                              
 
 
