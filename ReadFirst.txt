@@ -1,0 +1,10 @@
+#open all files in cloudera......                   
+#Move hw1input.txt, mapper3a.py, reducer3a.py, mapper3b.py, reducer3b.py, and runscript to cloudera desktop                                                                       
+
+
+
+# opern cloudera terminal and type:    
+	/home/cloudera/Desktop/RunScript.txt                                                              
+
+
+# output file will be in cloudera's Home (/home/**/part-00000)

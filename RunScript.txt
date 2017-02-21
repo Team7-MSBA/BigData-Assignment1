@@ -1,0 +1,8 @@
+
+hadoop fs -copyFromLocal /home/cloudera/Desktop/hw1input.txt
+
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -mapper /home/cloudera/Desktop/mapper3a.py -reducer /home/cloudera/Desktop/reducer3a.py -input hw1input.txt -output /user/cloudera/output/*
+
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -mapper /home/cloudera/Desktop/mapper3b.py -reducer /home/cloudera/Desktop/reducer3b.py -input /user/cloudera/output/*/part-00000 -output /user/cloudera/output/**
+
+hadoop fs -copyToLocal /user/cloudera/output/**
